@@ -11,7 +11,7 @@ public class CCuenta {
 	private String nombre;
 	private String cuenta;
 	private double saldo;
-	private double tipoInterés;
+	private double tipoInteres;
 
 	public CCuenta() {
 	}
@@ -112,12 +112,12 @@ public class CCuenta {
 	 * @return devuelve el tipo de interes
 	 */
 
-	public double getTipoInterés() {
-		return get_TipoInterés();
+	public double getTipoInteres() {
+		return get_TipoInteres();
 	}
 
-	public void setTipoInterés(double tipoInterés) {
-		this.set_TipoInterés(tipoInterés);
+	public void setTipoInteres(double tipoInteres) {
+		this.set_TipoInteres(tipoInteres);
 	}
 
 	/**
@@ -152,11 +152,11 @@ public class CCuenta {
 		this.saldo = saldo;
 	}
 
-	public double get_TipoInterés() {
-		return tipoInterés;
+	public double get_TipoInteres() {
+		return tipoInteres;
 	}
 
-	public void set_TipoInterés(double tipoInterés) {
-		this.tipoInterés = tipoInterés;
+	public void set_TipoInteres(double tipoInteres) {
+		this.tipoInteres = tipoInteres;
 	}
 }
