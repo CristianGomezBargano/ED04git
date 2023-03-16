@@ -102,6 +102,10 @@ public class CCuenta {
 	public String getNombre() {
 		return get_Nombre();
 	}
+	/**
+	 * asigna el nombre del usuario
+	 * @param nombre nombre del usuario
+	 */
 
 	public void setNombre(String nombre) {
 		this.set_Nombre(nombre);
@@ -115,46 +119,86 @@ public class CCuenta {
 	public double getTipoInteres() {
 		return get_TipoInteres();
 	}
+	
+	/**
+	 * asigna el tipo de interes de la cuenta
+	 * @param tipoInteres tipo de interes de la cuenta
+	 */
 
 	public void setTipoInteres(double tipoInteres) {
 		this.set_TipoInteres(tipoInteres);
 	}
 
 	/**
-	 * resultado de encapsular atributos. Desde aquí hasta el final de la clase, son
+	 * resultado de encapsular atributo desde aquí hasta el final de la clase, son
 	 * los métodos get y set de cada uno de los atributos mencionados al principio
 	 * de la clase.
-	 * 
-	 * @return nombre del usuario, numero de cuenta, saldo y tipo de interes
+	 * el primero, metodo para devolver el nombre del usuario
+	 * @return nombre del usuario
 	 */
 
 	public String get_Nombre() {
 		return nombre;
 	}
+	
+	/**
+	 * metodo para asignar el nombre del usuario
+	 * @param nombre referencia al nombre del usuario
+	 */
 
 	public void set_Nombre(String nombre) {
 		this.nombre = nombre;
 	}
+	
+	/**
+	 * metodo para devolver el numero de cuenta
+	 * @return devuelve el numero de cuenta
+	 */
 
 	public String get_Cuenta() {
 		return cuenta;
 	}
+	
+	/**
+	 * metodo para asignar el numero de cuenta
+	 * @param cuenta referencia a la cuenta del usuario
+	 */
 
 	public void set_Cuenta(String cuenta) {
 		this.cuenta = cuenta;
 	}
+	
+	/**
+	 * metodo para devolver el saldo de la cuenta
+	 * @return devuelve el saldo existente en la cuenta
+	 */
 
 	public double get_Saldo() {
 		return saldo;
 	}
+	
+	/**
+	 * metodo para asignar el saldo
+	 * @param saldo referencia al saldo existente en cuenta
+	 */
 
 	public void set_Saldo(double saldo) {
 		this.saldo = saldo;
 	}
+	
+	/**
+	 * metodo para devolver el tipo de interes
+	 * @return devuelve el tipo de interes
+	 */
 
 	public double get_TipoInteres() {
 		return tipoInteres;
 	}
+	
+	/**
+	 * metodo para asignar el tipo de interes
+	 * @param tipoInteres referencia al tipo de interes de la cuenta
+	 */
 
 	public void set_TipoInteres(double tipoInteres) {
 		this.tipoInteres = tipoInteres;
