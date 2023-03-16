@@ -31,6 +31,10 @@ public class Main {
         saldoActual = cuenta1.estado();
         System.out.println("El saldo actual es"+ saldoActual );
 
+        /**
+         * sentencias para la gestion de excepciones
+         */
+        
         try {
             cuenta1.retirar(2300);
         } catch (Exception e) {
