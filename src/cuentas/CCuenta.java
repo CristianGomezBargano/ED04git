@@ -39,6 +39,10 @@ public class CCuenta {
 		setNombre(nom);
 	}
 	
+	/**
+	 * metodo para devolver el nombre
+	 * @return devuelve nombre del titular
+	 */
 	
 	public String obtenerNombre() {
 		return getNombre();
@@ -82,10 +86,18 @@ public class CCuenta {
 			throw new Exception("No se hay suficiente saldo");
 		set_Saldo(get_Saldo() - cantidad);
 	}
+	/**
+	 * metodo para devolver numero de cuenta
+	 * @return devuelve numero de cuenta
+	 */
 
 	public String obtenerCuenta() {
 		return get_Cuenta();
 	}
+	/**
+	 * metodo para devolver el nombre 
+	 * @return devuelve el nombre
+	 */
 
 	public String getNombre() {
 		return get_Nombre();
@@ -94,6 +106,11 @@ public class CCuenta {
 	public void setNombre(String nombre) {
 		this.set_Nombre(nombre);
 	}
+	
+	/**
+	 * metodo para devolver el tipo de interes aplicable
+	 * @return devuelve el tipo de interes
+	 */
 
 	public double getTipoInterés() {
 		return get_TipoInterés();
