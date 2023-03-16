@@ -7,6 +7,11 @@ package cuentas;
  */
 
 public class Main {
+	
+	/**
+	 * 
+	 * @param args metodo main del proyecto
+	 */
 
     public static void main(String[] args) {
     	operativa_cuenta();
